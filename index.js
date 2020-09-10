@@ -49,7 +49,7 @@ return total
 
 function removeFromCart(item) {
   // write your code here
-  cart.splice(itemName);
+  cart.splice();
   // end it here
 }
 
