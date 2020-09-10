@@ -39,6 +39,7 @@ function viewCart() {
 
 function total() {
   // write your code here
+  var total = cart.itemPrice
 function add(cart[0].itemPrice, cart[1].itemPrice, cart[2].itemPrice)
   // end it here
 }
