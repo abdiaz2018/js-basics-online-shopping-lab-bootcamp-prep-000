@@ -66,7 +66,7 @@ if (!cardNumber) {
   return "Sorry, we don't have a credit card on file for you."
 }
 else if(cardNumber) {
-  return `Your total cost is $${cart[0].total}, which will be charged to the card ${cardNumber}.`
+  return `Your total cost is $${cart[1].total}, which will be charged to the card ${cardNumber}.`
 }
   // end it here
 }
