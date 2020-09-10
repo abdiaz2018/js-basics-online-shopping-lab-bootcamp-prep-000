@@ -43,7 +43,7 @@ function total() {
   for (let i = 0; i < cart.lenghth; i++)
 
   // end it here
-}}
+}
 
 function removeFromCart(item) {
   // write your code here
