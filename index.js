@@ -40,6 +40,7 @@ function viewCart() {
 function total() {
   // write your code here
   var total = 0
+  cart.push(totalPrice)
   for (let i = 0; i < cart.length; i++){
     total+=cart[i].itemPrice
   }
@@ -65,7 +66,7 @@ if (!cardNumber) {
   return "Sorry, we don't have a credit card on file for you."
 }
 else if(cardNumber) {
-  return `Your total cost is $${total}, which will be charged to the card ${cardNumber}.`
+  return `Your total cost is $${}, which will be charged to the card ${cardNumber}.`
 }
   // end it here
 }
