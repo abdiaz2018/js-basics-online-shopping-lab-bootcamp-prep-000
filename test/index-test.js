@@ -125,7 +125,7 @@ describe("removeFromCart()", function() {
     addToCart("watermelon");
     addToCart("yams");
 
-    removeFromCart("yams");
+    removeFromCart("watermelon");
 
     const firstItemName = getCart()[0].itemName;
     const secondItemName = getCart()[1].itemName;
