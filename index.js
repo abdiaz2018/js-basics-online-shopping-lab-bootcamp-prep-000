@@ -44,7 +44,7 @@ function total() {
     total+=cart[i].itemPrice
   }
 return total
-cart.push(totalPrice);
+cart.push(total);
   // end it here
 }
 
