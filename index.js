@@ -49,12 +49,12 @@ return total
 
 function removeFromCart(item) {
   // write your code here
-
+  cart.splice (`yams`)
   // end it here
 }
 
 function placeOrder(cardNumber) {
   // write your code here
-  
+
   // end it here
 }
