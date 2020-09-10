@@ -42,7 +42,7 @@ function total() {
   var total = 0
   for (let i = 0; i < cart.lenghth; i++){
     
-  }  
+  }
 return total
   // end it here
 }
