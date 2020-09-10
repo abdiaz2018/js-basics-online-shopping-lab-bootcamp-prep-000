@@ -41,7 +41,7 @@ function total() {
   // write your code here
   var total = 0
   for (let i = 0; i < cart.lenghth; i++)
-  
+
   // end it here
 }
 
