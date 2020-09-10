@@ -49,7 +49,7 @@ return total
 
 function removeFromCart(item) {
   // write your code here
-  cart.splice (`yams`)
+  cart.splice('yams');
   // end it here
 }
 
