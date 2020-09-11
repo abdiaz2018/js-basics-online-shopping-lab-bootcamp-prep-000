@@ -67,8 +67,8 @@ if (!cardNumber) {
 }
 else if(cardNumber) {
   return `Your total cost is $${cartTotal}, which will be charged to the card ${cardNumber}.`
-  function setCart(c) {
-  cart = c;
+  function setCart([]) {
+  cart = [];
   return cart;
 }
     }
