@@ -72,3 +72,4 @@ else if(cardNumber) {
     }
   // end it here
 }
+}
