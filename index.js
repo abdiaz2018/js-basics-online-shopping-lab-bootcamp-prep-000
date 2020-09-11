@@ -67,7 +67,9 @@ if (!cardNumber) {
 }
 else if(cardNumber) {
   return `Your total cost is $${cartTotal}, which will be charged to the card ${cardNumber}.`
-  getCart(=== 0)
+    if (cart.length > 0) {
+      cart.splice (0);
+    }
   }
   // end it here
 }
