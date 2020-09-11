@@ -71,7 +71,7 @@ else if(cardNumber) {
   cart = c;
   return cart;
 }
-setcart(0) 
+setcart([]) 
     }
   // end it here
 }
